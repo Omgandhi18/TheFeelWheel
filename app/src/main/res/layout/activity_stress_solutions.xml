@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StressSolutions">
+
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="377dp"
+        android:layout_height="600dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/listview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ListView>
+       <ScrollView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="Press the button below to get contact details of our therapist."
+            android:layout_gravity="center"
+            android:textSize="20dp"></TextView>
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+
+            android:layout_gravity="center_horizontal"
+            android:text="Contact Therapist"
+            android:id="@+id/btn"></Button>
+       </LinearLayout>
+
+       </ScrollView>
+
+
+
+</LinearLayout>

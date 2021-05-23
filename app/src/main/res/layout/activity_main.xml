@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        android:id="@+id/tvfeel"
+        android:background="@drawable/custom_text"
+        android:gravity="center"
+        android:text="Feelings"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvstress"
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        android:background="@drawable/custom_text"
+        android:gravity="center"
+        android:text="Stress"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tvgrief"
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        android:background="@drawable/custom_text"
+        android:gravity="center"
+        android:text="Grief &amp; Loss"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.339"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.637"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tvanxiety"
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        android:background="@drawable/custom_text"
+        android:gravity="center"
+        android:text="Anxiety"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.689"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.637"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tvanger"
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        android:background="@drawable/custom_text"
+        android:gravity="center"
+        android:text="Anger"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.341"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.368"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tvfear"
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        android:background="@drawable/custom_text"
+        android:gravity="center"
+        android:text="Fear"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tvdepres"
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        android:background="@drawable/custom_text"
+        android:gravity="center"
+        android:text="Depressed"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.689"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.368"
+        tools:visibility="visible" />
+
+    <TextView
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        android:background="@drawable/custom_text"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/tvtype1"
+        android:text="Types"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+
+    <TextView
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        android:visibility="gone"
+        android:background="@drawable/custom_text"
+        android:gravity="center"
+        android:id="@+id/tvsolutions1"
+        android:text="Solutions"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+
+    <TextView
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        android:background="@drawable/custom_text"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/tvcontact1"
+        android:text="Contact Therapist"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.852"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+    <TextView
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        android:background="@drawable/custom_text"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/tvtype2"
+        android:text="Types"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+
+    <TextView
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        android:visibility="gone"
+        android:background="@drawable/custom_text"
+        android:gravity="center"
+        android:id="@+id/tvsolutions2"
+        android:text="Solutions"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+
+    <TextView
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        android:background="@drawable/custom_text"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/tvcontact2"
+        android:text="Contact Therapist"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.852"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+    <TextView
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        android:background="@drawable/custom_text"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/tvtype3"
+        android:text="Types"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+
+    <TextView
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        android:visibility="gone"
+        android:background="@drawable/custom_text"
+        android:gravity="center"
+        android:id="@+id/tvsolutions3"
+        android:text="Solutions"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+
+    <TextView
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        android:background="@drawable/custom_text"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/tvcontact3"
+        android:text="Contact Therapist"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.852"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+    <TextView
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        android:background="@drawable/custom_text"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/tvtype4"
+        android:text="Types"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+
+    <TextView
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        android:visibility="gone"
+        android:background="@drawable/custom_text"
+        android:gravity="center"
+        android:id="@+id/tvsolutions4"
+        android:text="Solutions"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+
+    <TextView
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        android:background="@drawable/custom_text"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/tvcontact4"
+        android:text="Contact Therapist"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.852"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+    <TextView
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        android:background="@drawable/custom_text"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/tvtype5"
+        android:text="Types"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+
+    <TextView
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        android:visibility="gone"
+        android:background="@drawable/custom_text"
+        android:gravity="center"
+        android:id="@+id/tvsolutions5"
+        android:text="Solutions"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+
+    <TextView
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        android:background="@drawable/custom_text"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/tvcontact5"
+        android:text="Contact Therapist"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.852"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />  <TextView
+    android:layout_width="99dp"
+    android:layout_height="99dp"
+    android:background="@drawable/custom_text"
+    android:gravity="center"
+    android:visibility="gone"
+    android:id="@+id/tvtype6"
+    android:text="Types"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintHorizontal_bias="0.144"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.895" />
+
+    <TextView
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        android:visibility="gone"
+        android:background="@drawable/custom_text"
+        android:gravity="center"
+        android:id="@+id/tvsolutions6"
+        android:text="Solutions"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+
+    <TextView
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        android:background="@drawable/custom_text"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/tvcontact6"
+        android:text="Contact Therapist"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.852"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+</androidx.constraintlayout.widget.ConstraintLayout>

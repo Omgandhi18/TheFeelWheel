@@ -1,0 +1,2 @@
+rootProject.name = "The Feel Wheel"
+include ':app'
